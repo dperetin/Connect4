@@ -11,7 +11,7 @@ How to build
 ------------
 
 Clone and type: ::
-	make
+  make
 
 
 
