@@ -1,2 +1,9 @@
+UNAME := $(shell uname)
 test : main.c 
-	gcc main.c -lglut -o CONNECT_4
+	@if [ "$(UNAME)" =  "Darwin" ]; then\
+		gcc main.c -o CONNECT_4 -framework GLUT -framework OpenGL;\
+	elif [ "$(UNAME)" =  "Linux" ]; then\
+		gcc main.c -lglut -o CONNECT_4;\
+	else \
+		echo "Get yourself a real os.";\
+	fi
