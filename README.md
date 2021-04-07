@@ -6,6 +6,8 @@ create a pattern of 4 adjacent coins in a row, column or doagonal.
 
 This is a simple student project made in C with a dash of OpenGl.
 
+![alt text](https://github.com/dperetin/Connect4/blob/master/screenshot.png)
+
 ## How to build
 
 ### Ubuntu
